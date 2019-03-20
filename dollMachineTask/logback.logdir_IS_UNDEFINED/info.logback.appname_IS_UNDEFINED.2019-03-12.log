@@ -1,0 +1,177 @@
+[2019-03-12 09:00:39.604] [main] [INFO ][TaskApplication:50] [] Starting TaskApplication on DESKTOP-EQ2JK4Q with PID 5020 (started by tangyb in E:\项目\dollMachineTask)
+[2019-03-12 09:00:39.608] [main] [INFO ][TaskApplication:675] [] No active profile set, falling back to default profiles: default
+[2019-03-12 09:00:40.102] [main] [WARN ][ClassPathMapperScanner:44] [] No MyBatis mapper was found in '[com.wwj.task]' package. Please check your configuration.
+[2019-03-12 09:00:40.136] [main] [INFO ][RepositoryConfigurationDelegate:244] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+[2019-03-12 09:00:40.138] [main] [INFO ][RepositoryConfigurationDelegate:126] [] Bootstrapping Spring Data repositories in DEFAULT mode.
+[2019-03-12 09:00:40.157] [main] [INFO ][RepositoryConfigurationDelegate:182] [] Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+[2019-03-12 09:00:40.409] [main] [INFO ][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] [] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dc9e66fb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-03-12 09:00:40.671] [main] [INFO ][TomcatWebServer:90] [] Tomcat initialized with port(s): 9091 (http)
+[2019-03-12 09:00:40.683] [main] [INFO ][Http11NioProtocol:173] [] Initializing ProtocolHandler ["http-nio-9091"]
+[2019-03-12 09:00:40.689] [main] [INFO ][StandardService:173] [] Starting service [Tomcat]
+[2019-03-12 09:00:40.689] [main] [INFO ][StandardEngine:173] [] Starting Servlet engine: [Apache Tomcat/9.0.16]
+[2019-03-12 09:00:40.695] [main] [INFO ][AprLifecycleListener:173] [] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\java\apache-maven-3.6.0\bin\;D:\java\jdk\jdk1.8.0_201\bin;D:\java\jdk\jdk1.8.0_201\jre\bin;D:\TortoiseSVN\bin;C:\Users\tangyb\AppData\Local\Microsoft\WindowsApps;;.]
+[2019-03-12 09:00:40.765] [main] [INFO ][[/]:173] [] Initializing Spring embedded WebApplicationContext
+[2019-03-12 09:00:40.766] [main] [INFO ][ContextLoader:296] [] Root WebApplicationContext: initialization completed in 1096 ms
+[2019-03-12 09:00:40.983] [main] [INFO ][ThreadPoolTaskExecutor:171] [] Initializing ExecutorService 'applicationTaskExecutor'
+[2019-03-12 09:00:41.506] [main] [INFO ][Http11NioProtocol:173] [] Starting ProtocolHandler ["http-nio-9091"]
+[2019-03-12 09:00:41.528] [main] [INFO ][TomcatWebServer:204] [] Tomcat started on port(s): 9091 (http) with context path ''
+[2019-03-12 09:00:41.531] [main] [INFO ][TaskApplication:59] [] Started TaskApplication in 2.356 seconds (JVM running for 3.159)
+[2019-03-12 09:00:47.803] [http-nio-9091-exec-2] [INFO ][[/]:173] [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2019-03-12 09:00:47.803] [http-nio-9091-exec-2] [INFO ][DispatcherServlet:524] [] Initializing Servlet 'dispatcherServlet'
+[2019-03-12 09:00:47.810] [http-nio-9091-exec-2] [INFO ][DispatcherServlet:546] [] Completed initialization in 7 ms
+[2019-03-12 09:00:47.881] [http-nio-9091-exec-2] [INFO ][LoggerIntercept:40] [1552352447-331600d0-593f-403e-a300-2e2dcd4fab5c] 当前请求：/aa/aa，请求参数：{"requerstId":["1111"],"aa":["222"]}
+[2019-03-12 09:01:27.488] [http-nio-9091-exec-4] [INFO ][LoggerIntercept:40] [1552352487-5b4d7ea5-0fbc-419a-9d72-ad277c664836] 当前请求：/aa/aa，请求参数：{"requerstId":["1111"],"aa":["222"]}
+[2019-03-12 09:01:35.321] [http-nio-9091-exec-7] [INFO ][LoggerIntercept:40] [222222] 当前请求：/aa/aa，请求参数：{"aaa":["11"],"vbbb":["11"],"requestId":["222222"]}
+[2019-03-12 09:03:52.800] [http-nio-9091-exec-2] [INFO ][LoggerIntercept:40] [1552352632-ca9ef2f5-87f6-4403-b377-084fd5eb943a] 当前请求：/aa/aa，请求参数：{"requerstId":["1111"],"aa":["222"]}
+[2019-03-12 09:04:08.083] [main] [INFO ][TaskApplication:50] [] Starting TaskApplication on DESKTOP-EQ2JK4Q with PID 17540 (started by tangyb in E:\项目\dollMachineTask)
+[2019-03-12 09:04:08.086] [main] [INFO ][TaskApplication:675] [] No active profile set, falling back to default profiles: default
+[2019-03-12 09:04:08.560] [main] [WARN ][ClassPathMapperScanner:44] [] No MyBatis mapper was found in '[com.wwj.task]' package. Please check your configuration.
+[2019-03-12 09:04:08.592] [main] [INFO ][RepositoryConfigurationDelegate:244] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+[2019-03-12 09:04:08.594] [main] [INFO ][RepositoryConfigurationDelegate:126] [] Bootstrapping Spring Data repositories in DEFAULT mode.
+[2019-03-12 09:04:08.611] [main] [INFO ][RepositoryConfigurationDelegate:182] [] Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+[2019-03-12 09:04:08.853] [main] [INFO ][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] [] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a9a6196f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-03-12 09:04:09.109] [main] [INFO ][TomcatWebServer:90] [] Tomcat initialized with port(s): 9091 (http)
+[2019-03-12 09:04:09.120] [main] [INFO ][Http11NioProtocol:173] [] Initializing ProtocolHandler ["http-nio-9091"]
+[2019-03-12 09:04:09.127] [main] [INFO ][StandardService:173] [] Starting service [Tomcat]
+[2019-03-12 09:04:09.127] [main] [INFO ][StandardEngine:173] [] Starting Servlet engine: [Apache Tomcat/9.0.16]
+[2019-03-12 09:04:09.133] [main] [INFO ][AprLifecycleListener:173] [] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\java\apache-maven-3.6.0\bin\;D:\java\jdk\jdk1.8.0_201\bin;D:\java\jdk\jdk1.8.0_201\jre\bin;D:\TortoiseSVN\bin;C:\Users\tangyb\AppData\Local\Microsoft\WindowsApps;;.]
+[2019-03-12 09:04:09.206] [main] [INFO ][[/]:173] [] Initializing Spring embedded WebApplicationContext
+[2019-03-12 09:04:09.206] [main] [INFO ][ContextLoader:296] [] Root WebApplicationContext: initialization completed in 1055 ms
+[2019-03-12 09:04:09.432] [main] [INFO ][ThreadPoolTaskExecutor:171] [] Initializing ExecutorService 'applicationTaskExecutor'
+[2019-03-12 09:04:09.958] [main] [INFO ][Http11NioProtocol:173] [] Starting ProtocolHandler ["http-nio-9091"]
+[2019-03-12 09:04:09.980] [main] [INFO ][TomcatWebServer:204] [] Tomcat started on port(s): 9091 (http) with context path ''
+[2019-03-12 09:04:09.983] [main] [INFO ][TaskApplication:59] [] Started TaskApplication in 2.307 seconds (JVM running for 3.038)
+[2019-03-12 09:04:26.066] [http-nio-9091-exec-1] [INFO ][[/]:173] [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2019-03-12 09:04:26.066] [http-nio-9091-exec-1] [INFO ][DispatcherServlet:524] [] Initializing Servlet 'dispatcherServlet'
+[2019-03-12 09:04:26.075] [http-nio-9091-exec-1] [INFO ][DispatcherServlet:546] [] Completed initialization in 9 ms
+[2019-03-12 09:04:26.136] [http-nio-9091-exec-1] [INFO ][LoggerIntercept:40] [1552352666-559d452d496b47c59f185912f7b55007] 当前请求：/aa/aa，请求参数：{"requerstId":["1111"],"aa":["222"]}
+[2019-03-12 09:28:23.531] [main] [INFO ][TaskApplication:50] [] Starting TaskApplication on DESKTOP-EQ2JK4Q with PID 8372 (started by tangyb in E:\项目\dollMachineTask)
+[2019-03-12 09:28:23.534] [main] [INFO ][TaskApplication:675] [] No active profile set, falling back to default profiles: default
+[2019-03-12 09:28:24.004] [main] [WARN ][ClassPathMapperScanner:44] [] No MyBatis mapper was found in '[com.wwj.task]' package. Please check your configuration.
+[2019-03-12 09:28:24.037] [main] [INFO ][RepositoryConfigurationDelegate:244] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+[2019-03-12 09:28:24.039] [main] [INFO ][RepositoryConfigurationDelegate:126] [] Bootstrapping Spring Data repositories in DEFAULT mode.
+[2019-03-12 09:28:24.057] [main] [INFO ][RepositoryConfigurationDelegate:182] [] Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+[2019-03-12 09:28:24.309] [main] [INFO ][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] [] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$867e7fdd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-03-12 09:28:24.580] [main] [INFO ][TomcatWebServer:90] [] Tomcat initialized with port(s): 9091 (http)
+[2019-03-12 09:28:24.592] [main] [INFO ][Http11NioProtocol:173] [] Initializing ProtocolHandler ["http-nio-9091"]
+[2019-03-12 09:28:24.599] [main] [INFO ][StandardService:173] [] Starting service [Tomcat]
+[2019-03-12 09:28:24.599] [main] [INFO ][StandardEngine:173] [] Starting Servlet engine: [Apache Tomcat/9.0.16]
+[2019-03-12 09:28:24.605] [main] [INFO ][AprLifecycleListener:173] [] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\java\apache-maven-3.6.0\bin\;D:\java\jdk\jdk1.8.0_201\bin;D:\java\jdk\jdk1.8.0_201\jre\bin;D:\TortoiseSVN\bin;C:\Users\tangyb\AppData\Local\Microsoft\WindowsApps;;.]
+[2019-03-12 09:28:24.677] [main] [INFO ][[/]:173] [] Initializing Spring embedded WebApplicationContext
+[2019-03-12 09:28:24.677] [main] [INFO ][ContextLoader:296] [] Root WebApplicationContext: initialization completed in 1084 ms
+[2019-03-12 09:28:24.933] [main] [INFO ][ThreadPoolTaskExecutor:171] [] Initializing ExecutorService 'applicationTaskExecutor'
+[2019-03-12 09:28:25.499] [main] [INFO ][Http11NioProtocol:173] [] Starting ProtocolHandler ["http-nio-9091"]
+[2019-03-12 09:28:25.525] [main] [INFO ][TomcatWebServer:204] [] Tomcat started on port(s): 9091 (http) with context path ''
+[2019-03-12 09:28:25.529] [main] [INFO ][TaskApplication:59] [] Started TaskApplication in 2.476 seconds (JVM running for 3.269)
+[2019-03-12 09:28:34.618] [http-nio-9091-exec-1] [INFO ][[/]:173] [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2019-03-12 09:28:34.619] [http-nio-9091-exec-1] [INFO ][DispatcherServlet:524] [] Initializing Servlet 'dispatcherServlet'
+[2019-03-12 09:28:34.625] [http-nio-9091-exec-1] [INFO ][DispatcherServlet:546] [] Completed initialization in 6 ms
+[2019-03-12 09:28:34.693] [http-nio-9091-exec-1] [INFO ][LoggerIntercept:42] [222222] 当前请求：/aa/aa，请求参数：{"aaa":["11"],"vbbb":["11"],"requestId":["222222"]}
+[2019-03-12 09:28:35.609] [http-nio-9091-exec-3] [INFO ][LoggerIntercept:42] [222222] 当前请求：/aa/aa，请求参数：{"aaa":["11"],"vbbb":["11"],"requestId":["222222"]}
+[2019-03-12 09:28:36.404] [http-nio-9091-exec-4] [INFO ][LoggerIntercept:42] [222222] 当前请求：/aa/aa，请求参数：{"aaa":["11"],"vbbb":["11"],"requestId":["222222"]}
+[2019-03-12 09:44:45.234] [http-nio-9091-exec-7] [INFO ][LoggerIntercept:42] [222222] 当前请求：/aa/aa，请求参数：{"aaa":["11"],"vbbb":["11"],"requestId":["222222"]}
+[2019-03-12 09:50:00.281] [main] [INFO ][TaskApplication:50] [] Starting TaskApplication on DESKTOP-EQ2JK4Q with PID 5116 (started by tangyb in E:\项目\dollMachineTask)
+[2019-03-12 09:50:00.284] [main] [INFO ][TaskApplication:675] [] No active profile set, falling back to default profiles: default
+[2019-03-12 09:50:00.797] [main] [WARN ][ClassPathMapperScanner:44] [] No MyBatis mapper was found in '[com.wwj.task]' package. Please check your configuration.
+[2019-03-12 09:50:00.833] [main] [INFO ][RepositoryConfigurationDelegate:244] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+[2019-03-12 09:50:00.836] [main] [INFO ][RepositoryConfigurationDelegate:126] [] Bootstrapping Spring Data repositories in DEFAULT mode.
+[2019-03-12 09:50:00.855] [main] [INFO ][RepositoryConfigurationDelegate:182] [] Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+[2019-03-12 09:50:01.119] [main] [INFO ][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] [] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$35de1991] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-03-12 09:50:01.399] [main] [INFO ][TomcatWebServer:90] [] Tomcat initialized with port(s): 9091 (http)
+[2019-03-12 09:50:01.412] [main] [INFO ][Http11NioProtocol:173] [] Initializing ProtocolHandler ["http-nio-9091"]
+[2019-03-12 09:50:01.419] [main] [INFO ][StandardService:173] [] Starting service [Tomcat]
+[2019-03-12 09:50:01.419] [main] [INFO ][StandardEngine:173] [] Starting Servlet engine: [Apache Tomcat/9.0.16]
+[2019-03-12 09:50:01.425] [main] [INFO ][AprLifecycleListener:173] [] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\java\apache-maven-3.6.0\bin\;D:\java\jdk\jdk1.8.0_201\bin;D:\java\jdk\jdk1.8.0_201\jre\bin;D:\TortoiseSVN\bin;C:\Users\tangyb\AppData\Local\Microsoft\WindowsApps;;.]
+[2019-03-12 09:50:01.503] [main] [INFO ][[/]:173] [] Initializing Spring embedded WebApplicationContext
+[2019-03-12 09:50:01.503] [main] [INFO ][ContextLoader:296] [] Root WebApplicationContext: initialization completed in 1156 ms
+[2019-03-12 09:50:01.747] [main] [INFO ][ThreadPoolTaskExecutor:171] [] Initializing ExecutorService 'applicationTaskExecutor'
+[2019-03-12 09:50:02.305] [main] [INFO ][Http11NioProtocol:173] [] Starting ProtocolHandler ["http-nio-9091"]
+[2019-03-12 09:50:02.325] [main] [INFO ][TomcatWebServer:204] [] Tomcat started on port(s): 9091 (http) with context path ''
+[2019-03-12 09:50:02.328] [main] [INFO ][TaskApplication:59] [] Started TaskApplication in 2.564 seconds (JVM running for 3.508)
+[2019-03-12 09:50:07.653] [http-nio-9091-exec-2] [INFO ][[/]:173] [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2019-03-12 09:50:07.653] [http-nio-9091-exec-2] [INFO ][DispatcherServlet:524] [] Initializing Servlet 'dispatcherServlet'
+[2019-03-12 09:50:07.659] [http-nio-9091-exec-2] [INFO ][DispatcherServlet:546] [] Completed initialization in 5 ms
+[2019-03-12 09:50:07.694] [http-nio-9091-exec-2] [INFO ][LoggerIntercept:45] [] 1552355407
+[2019-03-12 09:50:07.737] [http-nio-9091-exec-2] [INFO ][LoggerIntercept:48] [222222] 当前请求：/aa/aa，请求参数：{"aaa":["11"],"vbbb":["11"],"requestId":["222222"]}
+[2019-03-12 09:50:14.172] [http-nio-9091-exec-3] [INFO ][LoggerIntercept:45] [] null
+[2019-03-12 09:50:14.172] [http-nio-9091-exec-3] [INFO ][LoggerIntercept:45] [] 1552355414
+[2019-03-12 09:50:14.172] [http-nio-9091-exec-3] [INFO ][LoggerIntercept:48] [222222] 当前请求：/aa/aa，请求参数：{"aaa":["11"],"vbbb":["11"],"requestId":["222222"]}
+[2019-03-12 09:50:18.779] [http-nio-9091-exec-4] [INFO ][LoggerIntercept:45] [] null
+[2019-03-12 09:50:18.779] [http-nio-9091-exec-4] [INFO ][LoggerIntercept:45] [] null
+[2019-03-12 09:50:18.779] [http-nio-9091-exec-4] [INFO ][LoggerIntercept:45] [] 1552355418
+[2019-03-12 09:50:18.779] [http-nio-9091-exec-4] [INFO ][LoggerIntercept:48] [222222] 当前请求：/aa/aa，请求参数：{"aaa":["11"],"vbbb":["11"],"requestId":["222222"]}
+[2019-03-12 17:22:44.016] [main] [INFO ][TaskApplication:50] [] Starting TaskApplication on DESKTOP-EQ2JK4Q with PID 11112 (started by tangyb in E:\项目\dollMachineTask)
+[2019-03-12 17:22:44.018] [main] [INFO ][TaskApplication:675] [] No active profile set, falling back to default profiles: default
+[2019-03-12 17:22:44.701] [main] [WARN ][ClassPathMapperScanner:44] [] No MyBatis mapper was found in '[com.wwj.task]' package. Please check your configuration.
+[2019-03-12 17:22:44.730] [main] [INFO ][RepositoryConfigurationDelegate:244] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+[2019-03-12 17:22:44.732] [main] [INFO ][RepositoryConfigurationDelegate:126] [] Bootstrapping Spring Data repositories in DEFAULT mode.
+[2019-03-12 17:22:44.749] [main] [INFO ][RepositoryConfigurationDelegate:182] [] Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+[2019-03-12 17:22:44.974] [main] [INFO ][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] [] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c9be40ba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-03-12 17:22:45.303] [main] [INFO ][TomcatWebServer:90] [] Tomcat initialized with port(s): 9091 (http)
+[2019-03-12 17:22:45.323] [main] [INFO ][Http11NioProtocol:173] [] Initializing ProtocolHandler ["http-nio-9091"]
+[2019-03-12 17:22:45.337] [main] [INFO ][StandardService:173] [] Starting service [Tomcat]
+[2019-03-12 17:22:45.337] [main] [INFO ][StandardEngine:173] [] Starting Servlet engine: [Apache Tomcat/9.0.16]
+[2019-03-12 17:22:45.342] [main] [INFO ][AprLifecycleListener:173] [] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\java\apache-maven-3.6.0\bin\;D:\java\jdk\jdk1.8.0_201\bin;D:\java\jdk\jdk1.8.0_201\jre\bin;D:\TortoiseSVN\bin;C:\Users\tangyb\AppData\Local\Microsoft\WindowsApps;;.]
+[2019-03-12 17:22:45.422] [main] [INFO ][[/]:173] [] Initializing Spring embedded WebApplicationContext
+[2019-03-12 17:22:45.422] [main] [INFO ][ContextLoader:296] [] Root WebApplicationContext: initialization completed in 1365 ms
+[2019-03-12 17:22:45.938] [main] [INFO ][ThreadPoolTaskExecutor:171] [] Initializing ExecutorService 'applicationTaskExecutor'
+[2019-03-12 17:22:46.313] [main] [INFO ][Http11NioProtocol:173] [] Starting ProtocolHandler ["http-nio-9091"]
+[2019-03-12 17:22:46.330] [main] [INFO ][TomcatWebServer:204] [] Tomcat started on port(s): 9091 (http) with context path ''
+[2019-03-12 17:22:46.332] [main] [INFO ][TaskApplication:59] [] Started TaskApplication in 2.834 seconds (JVM running for 3.56)
+[2019-03-12 17:22:51.141] [http-nio-9091-exec-1] [INFO ][[/]:173] [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2019-03-12 17:22:51.142] [http-nio-9091-exec-1] [INFO ][DispatcherServlet:524] [] Initializing Servlet 'dispatcherServlet'
+[2019-03-12 17:22:51.149] [http-nio-9091-exec-1] [INFO ][DispatcherServlet:546] [] Completed initialization in 7 ms
+[2019-03-12 17:22:51.190] [http-nio-9091-exec-1] [INFO ][LoggerIntercept:40] [null1552382571186d73109] 当前请求：/aa/aa，请求参数：{"requerstId":["1111"],"aa":["222"]}
+[2019-03-12 17:22:51.471] [http-nio-9091-exec-1] [INFO ][EpollProvider:68] [null1552382571186d73109] Starting without optional epoll library
+[2019-03-12 17:22:51.472] [http-nio-9091-exec-1] [INFO ][KqueueProvider:70] [null1552382571186d73109] Starting without optional kqueue library
+[2019-03-12 17:22:52.780] [http-nio-9091-exec-1] [INFO ][LoggerIntercept:40] [null15523825727804f06e4] 当前请求：/error，请求参数：{"requerstId":["1111"],"aa":["222"]}
+[2019-03-12 17:56:56.768] [main] [INFO ][TaskApplication:50] [] Starting TaskApplication on DESKTOP-EQ2JK4Q with PID 6232 (started by tangyb in E:\项目\dollMachineTask)
+[2019-03-12 17:56:56.780] [main] [INFO ][TaskApplication:675] [] No active profile set, falling back to default profiles: default
+[2019-03-12 17:56:57.692] [main] [WARN ][ClassPathMapperScanner:44] [] No MyBatis mapper was found in '[com.wwj.task]' package. Please check your configuration.
+[2019-03-12 17:56:57.721] [main] [INFO ][RepositoryConfigurationDelegate:244] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+[2019-03-12 17:56:57.723] [main] [INFO ][RepositoryConfigurationDelegate:126] [] Bootstrapping Spring Data repositories in DEFAULT mode.
+[2019-03-12 17:56:57.739] [main] [INFO ][RepositoryConfigurationDelegate:182] [] Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+[2019-03-12 17:56:57.974] [main] [INFO ][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] [] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3c6448a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-03-12 17:56:58.298] [main] [INFO ][TomcatWebServer:90] [] Tomcat initialized with port(s): 9091 (http)
+[2019-03-12 17:56:58.311] [main] [INFO ][Http11NioProtocol:173] [] Initializing ProtocolHandler ["http-nio-9091"]
+[2019-03-12 17:56:58.331] [main] [INFO ][StandardService:173] [] Starting service [Tomcat]
+[2019-03-12 17:56:58.331] [main] [INFO ][StandardEngine:173] [] Starting Servlet engine: [Apache Tomcat/9.0.16]
+[2019-03-12 17:56:58.337] [main] [INFO ][AprLifecycleListener:173] [] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\java\apache-maven-3.6.0\bin\;D:\java\jdk\jdk1.8.0_201\bin;D:\java\jdk\jdk1.8.0_201\jre\bin;D:\TortoiseSVN\bin;C:\Users\tangyb\AppData\Local\Microsoft\WindowsApps;;.]
+[2019-03-12 17:56:59.453] [main] [INFO ][[/]:173] [] Initializing Spring embedded WebApplicationContext
+[2019-03-12 17:56:59.453] [main] [INFO ][ContextLoader:296] [] Root WebApplicationContext: initialization completed in 2582 ms
+[2019-03-12 17:56:59.884] [main] [INFO ][ThreadPoolTaskExecutor:171] [] Initializing ExecutorService 'applicationTaskExecutor'
+[2019-03-12 17:57:00.169] [main] [INFO ][Http11NioProtocol:173] [] Starting ProtocolHandler ["http-nio-9091"]
+[2019-03-12 17:57:00.187] [main] [INFO ][TomcatWebServer:204] [] Tomcat started on port(s): 9091 (http) with context path ''
+[2019-03-12 17:57:00.189] [main] [INFO ][TaskApplication:59] [] Started TaskApplication in 4.308 seconds (JVM running for 5.082)
+[2019-03-12 17:57:07.510] [http-nio-9091-exec-1] [INFO ][[/]:173] [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2019-03-12 17:57:07.511] [http-nio-9091-exec-1] [INFO ][DispatcherServlet:524] [] Initializing Servlet 'dispatcherServlet'
+[2019-03-12 17:57:07.519] [http-nio-9091-exec-1] [INFO ][DispatcherServlet:546] [] Completed initialization in 8 ms
+[2019-03-12 17:57:07.568] [http-nio-9091-exec-1] [INFO ][LoggerIntercept:40] [null155238462755311a190] 当前请求：/aa/aa，请求参数：{"requerstId":["1111"],"aa":["222"]}
+[2019-03-12 17:57:07.647] [http-nio-9091-exec-1] [INFO ][EpollProvider:68] [null155238462755311a190] Starting without optional epoll library
+[2019-03-12 17:57:07.649] [http-nio-9091-exec-1] [INFO ][KqueueProvider:70] [null155238462755311a190] Starting without optional kqueue library
+[2019-03-12 17:57:07.890] [http-nio-9091-exec-1] [INFO ][TestController:32] [null155238462755311a190] aaaaaaaa=111
+[2019-03-12 17:58:17.701] [main] [INFO ][TaskApplication:50] [] Starting TaskApplication on DESKTOP-EQ2JK4Q with PID 19152 (started by tangyb in E:\项目\dollMachineTask)
+[2019-03-12 17:58:17.705] [main] [INFO ][TaskApplication:675] [] No active profile set, falling back to default profiles: default
+[2019-03-12 17:58:18.316] [main] [WARN ][ClassPathMapperScanner:44] [] No MyBatis mapper was found in '[com.wwj.task]' package. Please check your configuration.
+[2019-03-12 17:58:18.343] [main] [INFO ][RepositoryConfigurationDelegate:244] [] Multiple Spring Data modules found, entering strict repository configuration mode!
+[2019-03-12 17:58:18.345] [main] [INFO ][RepositoryConfigurationDelegate:126] [] Bootstrapping Spring Data repositories in DEFAULT mode.
+[2019-03-12 17:58:18.363] [main] [INFO ][RepositoryConfigurationDelegate:182] [] Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+[2019-03-12 17:58:18.582] [main] [INFO ][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] [] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a631185e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-03-12 17:58:18.800] [main] [INFO ][TomcatWebServer:90] [] Tomcat initialized with port(s): 9091 (http)
+[2019-03-12 17:58:18.809] [main] [INFO ][Http11NioProtocol:173] [] Initializing ProtocolHandler ["http-nio-9091"]
+[2019-03-12 17:58:18.815] [main] [INFO ][StandardService:173] [] Starting service [Tomcat]
+[2019-03-12 17:58:18.815] [main] [INFO ][StandardEngine:173] [] Starting Servlet engine: [Apache Tomcat/9.0.16]
+[2019-03-12 17:58:18.820] [main] [INFO ][AprLifecycleListener:173] [] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\java\apache-maven-3.6.0\bin\;D:\java\jdk\jdk1.8.0_201\bin;D:\java\jdk\jdk1.8.0_201\jre\bin;D:\TortoiseSVN\bin;C:\Users\tangyb\AppData\Local\Microsoft\WindowsApps;;.]
+[2019-03-12 17:58:18.884] [main] [INFO ][[/]:173] [] Initializing Spring embedded WebApplicationContext
+[2019-03-12 17:58:18.884] [main] [INFO ][ContextLoader:296] [] Root WebApplicationContext: initialization completed in 1146 ms
+[2019-03-12 17:58:19.285] [main] [INFO ][ThreadPoolTaskExecutor:171] [] Initializing ExecutorService 'applicationTaskExecutor'
+[2019-03-12 17:58:19.559] [main] [INFO ][Http11NioProtocol:173] [] Starting ProtocolHandler ["http-nio-9091"]
+[2019-03-12 17:58:19.576] [main] [INFO ][TomcatWebServer:204] [] Tomcat started on port(s): 9091 (http) with context path ''
+[2019-03-12 17:58:19.578] [main] [INFO ][TaskApplication:59] [] Started TaskApplication in 2.291 seconds (JVM running for 2.783)
+[2019-03-12 17:58:48.360] [http-nio-9091-exec-1] [INFO ][[/]:173] [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2019-03-12 17:58:48.361] [http-nio-9091-exec-1] [INFO ][DispatcherServlet:524] [] Initializing Servlet 'dispatcherServlet'
+[2019-03-12 17:58:48.365] [http-nio-9091-exec-1] [INFO ][DispatcherServlet:546] [] Completed initialization in 4 ms
+[2019-03-12 17:58:48.384] [http-nio-9091-exec-1] [INFO ][LoggerIntercept:41] [1552384728380bb2b21] 当前请求：/aa/aa，请求参数：{"requerstId":["1111"],"aa":["222"]}
+[2019-03-12 17:58:48.463] [http-nio-9091-exec-1] [INFO ][EpollProvider:68] [1552384728380bb2b21] Starting without optional epoll library
+[2019-03-12 17:58:48.465] [http-nio-9091-exec-1] [INFO ][KqueueProvider:70] [1552384728380bb2b21] Starting without optional kqueue library
+[2019-03-12 17:58:48.668] [http-nio-9091-exec-1] [INFO ][TestController:32] [1552384728380bb2b21] aaaaaaaa=111

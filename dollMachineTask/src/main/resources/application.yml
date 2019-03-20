@@ -1,0 +1,38 @@
+server:
+  port: 9091
+# 数据库连接
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.20.146:3306?characterEncoding=utf8
+    username: mypmlive
+    password: 23985111@Loovee
+    druid:
+      initial-size: 1
+      filters: sstat wall log4j
+      min-idle: 1
+      web-stat-filter:
+        exclusions: /druid/*,/favicon.ico
+      stat-view-servlet:
+        url-pattern: /druid/*
+        login-username: root
+        login-password: 123
+        allow: 127.0.0.1,129.168.1.11
+        deny: 129.168.1.12
+        reset-enable: false
+
+  # redis链接
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: 23985111@Loovee
+  aop:
+    auto: true
+mybatis:
+  mapper-locations: classpath:mappers/*
+logging:
+  config: classpath:logback-spring.xml
+
+
+

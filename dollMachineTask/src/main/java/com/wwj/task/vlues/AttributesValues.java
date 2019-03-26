@@ -13,4 +13,6 @@ public interface AttributesValues {
     String ALL_URL_PATTERN ="/*";
     String EXCLUSIONS="exclusions";
     String EXCLUSIONS_VALUES="/demoMysql,/druid/*,*.js,*.gif,*.jpg,*.css";
+
+    String TIME_PATTERN_YYYY_MM_DD_HH_MM_SS_SSS="yyyy-MM-dd HH:mm:ss.SSS";
 }

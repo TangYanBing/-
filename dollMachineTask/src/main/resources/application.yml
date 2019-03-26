@@ -10,7 +10,6 @@ spring:
     password: 23985111@Loovee
     druid:
       initial-size: 1
-      filters: sstat wall log4j
       min-idle: 1
       web-stat-filter:
         exclusions: /druid/*,/favicon.ico

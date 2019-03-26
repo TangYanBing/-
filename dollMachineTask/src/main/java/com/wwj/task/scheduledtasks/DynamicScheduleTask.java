@@ -22,7 +22,7 @@ import lombok.extern.slf4j.Slf4j;
  * @since JDK 1.8
  */
 @Slf4j
-@Component
+//@Component
 @EnableScheduling
 public class DynamicScheduleTask implements SchedulingConfigurer {
 

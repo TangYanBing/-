@@ -19,4 +19,7 @@ public interface DemoService {
      * @return DemoUser信息
      */
     DemoUserPo findUserInfo(String id);
+
+
+    Integer appealRecordBackUp();
 }

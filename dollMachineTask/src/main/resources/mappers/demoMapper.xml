@@ -6,4 +6,49 @@
         SELECT id,nick AS `name` FROM doll_users.`user` WHERE id=#{id};
     </select>
 
+
+    <select id="findTableCountByTableName" resultType="java.lang.Integer">
+        SELECT
+          count(*)
+        FROM
+          information_schema.TABLES
+        WHERE `table_name` = #{tableName}
+          AND table_schema = #{databaseName};
+    </select>
+
+    <select id="findAppealRecordBackUpCount" resultType="java.lang.Integer">
+        SELECT
+        COUNT(id)
+        FROM
+        doll_live.`appeal_record`
+        WHERE `start` &lt; #{dateTime}
+    </select>
+
+
+    <select id="findAppealRecordBackUpMaxId"  resultType="java.lang.Integer">
+        SELECT
+        id
+        FROM
+        doll_live.`appeal_record`
+        WHERE  `start` &lt; #{dateTime} ORDER BY id DESC LIMIT 1;
+    </select>
+
+    <insert id="createAppealRecordBackUpTable">
+        CREATE TABLE doll_live.`appeal_record_${year}` LIKE doll_live.`appeal_record`
+    </insert>
+
+    <insert id="insertAppealRecordBackUp">
+        INSERT INTO doll_live.`appeal_record_${year}`
+        SELECT
+        *
+        FROM
+        doll_live.`appeal_record`
+        WHERE id &lt;= #{id}
+    </insert>
+
+    <delete id="clearAppealRecordById">
+        delete from doll_live.`appeal_record` where id &lt;= #{id}
+    </delete>
+
+
 </mapper>

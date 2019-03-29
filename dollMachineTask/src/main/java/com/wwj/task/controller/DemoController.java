@@ -2,6 +2,7 @@ package com.wwj.task.controller;
 
 import com.wwj.task.beans.po.DemoUserPo;
 import com.wwj.task.beans.vo.DemoVo;
+import com.wwj.task.enums.ResultEnum;
 import com.wwj.task.service.demo.DemoService;
 import com.wwj.task.utils.Result;
 import com.wwj.task.utils.ResultUtil;
@@ -15,6 +16,7 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
@@ -86,6 +88,17 @@ public class DemoController {
         redisTemplate.opsForValue().set(RedisKeyValues.USER_INFO+userId,name);
         String userName = (String)redisTemplate.opsForValue().get(RedisKeyValues.USER_INFO + userId);
         return ResultUtil.success(userName);
+    }
+
+    @RequestMapping("appealRecordBackUp")
+    public Result appealRecordBackUp() {
+        try  {
+            demoService.appealRecordBackUp();
+            return ResultUtil.success();
+        } catch (Exception e) {
+            log.error("", e);
+            return ResultUtil.error(ResultEnum.CODE_ERROR);
+        }
     }
 
 

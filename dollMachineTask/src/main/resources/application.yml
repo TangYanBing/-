@@ -5,10 +5,10 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.20.146:3306?characterEncoding=utf8
-    username: mypmlive
-    password: 23985111@Loovee
     druid:
+      url: jdbc:mysql://192.168.20.146:3306?characterEncoding=utf8
+      username: mypmlive
+      password: 23985111@Loovee
       initial-size: 1
       min-idle: 1
       web-stat-filter:

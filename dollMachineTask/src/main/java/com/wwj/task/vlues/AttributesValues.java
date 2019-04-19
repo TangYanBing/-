@@ -10,7 +10,8 @@ package com.wwj.task.vlues;
 public interface AttributesValues {
 
     String USER_ID="userId";
-    String ALL_URL_PATTERN ="/*";
+    String ALL_URL_PATTERN_1 ="/**";
+    String ALL_URL_PATTERN_2 ="/*";
     String EXCLUSIONS="exclusions";
     String EXCLUSIONS_VALUES="/demoMysql,/druid/*,*.js,*.gif,*.jpg,*.css";
 

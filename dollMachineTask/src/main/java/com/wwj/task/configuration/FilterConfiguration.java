@@ -34,7 +34,7 @@ public class FilterConfiguration {
         String logCostFilter = "LogCostFilter";
         filterRegistrationBean.setName(logCostFilter);
         filterRegistrationBean.setOrder(MathValues.INTEGER0);
-        filterRegistrationBean.addUrlPatterns(AttributesValues.ALL_URL_PATTERN);
+        filterRegistrationBean.addUrlPatterns(AttributesValues.ALL_URL_PATTERN_2);
         filterRegistrationBean.addInitParameter(AttributesValues.EXCLUSIONS,AttributesValues.EXCLUSIONS_VALUES );
         return filterRegistrationBean;
     }

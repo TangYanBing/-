@@ -29,6 +29,6 @@ public class InterceptConfiguration implements WebMvcConfigurer {
     @Override
     public void addInterceptors(InterceptorRegistry registry){
         registry.addInterceptor(loggerIntercept)
-                .addPathPatterns(AttributesValues.ALL_URL_PATTERN);
+                .addPathPatterns(AttributesValues.ALL_URL_PATTERN_1);
     }
 }

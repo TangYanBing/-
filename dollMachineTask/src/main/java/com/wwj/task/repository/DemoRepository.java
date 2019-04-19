@@ -50,7 +50,6 @@ public interface DemoRepository {
 
     /**
      * 对表进行数据备份 并且备份表不存在
-     * @param id 小于等于该id的数据
      * @param year 备份年表
      * @return 数据条数
      */
